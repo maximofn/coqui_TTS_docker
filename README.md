@@ -8,7 +8,7 @@ Dockerization of the [Hugging Face coqui TTS Space](https://huggingface.co/space
 
 ## Requisites
 
-[Docker](https://docs.docker.com/desktop/) and [nvidia container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) must be installed. A GPU with at least 20 GB of VRAM is required.
+[Docker](https://docs.docker.com/desktop/) and [nvidia container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) must be installed. A GPU with at least 4 GB of VRAM is required.
 
 ## Usage
 

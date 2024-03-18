@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  coqui_tts:
+    container_name: coqui_tts
+    image: maximofn/coqui_tts:1.0.1
+    build: .
+    runtime: nvidia
+    network_mode: "host"
+    # volumes:
+    #   - ./tts:/root/.local/share/tts
+    tty: true
+    stdin_open: true
